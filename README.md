@@ -20,13 +20,14 @@ function getConnectMe()
 	   return $mysqli;		    
 	  }
 	  
-	  for fetching the data 
+ for fetching the data 
 	 
 	  
-	   function getTotalQstass($ass_id,$mysqli)
- {
+function getTotalQstass($ass_id,$mysqli)
+ 	{
+ 	
  	$total_qstn='';
-    $query=$this->getCountqstAssmntSql();	
+	 $query=$this->getCountqstAssmntSql();	
 	$stmt = $mysqli->stmt_init(); 
 	$mysqli->set_charset("utf8");	  
 	$stmt->prepare($query);

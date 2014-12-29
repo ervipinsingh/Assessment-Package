@@ -10,7 +10,9 @@ This is a online assessment Package.
 6- can see the report of Users attempted assessments
 
 and many more.
+Server Requirements
 
+PHP version 5.2.4 or newer.
 for database connection we use 
 
 function getConnectMe()

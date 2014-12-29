@@ -17,16 +17,20 @@ PHP version 5.2.4 or newer.
 for database connection we use 
 
 function getConnectMe()
+
 	 { 
+	 
 	   $config = new msConfig();
 	   $mysqli=mysqli_connect($config->hostname,$config->username,$config->password,$config->database) or die(mysqli_error());
 	   return $mysqli;		    
+	 
 	  }
 	  
  for fetching the data 
 	 
 	  
 function getTotalQstass($ass_id,$mysqli)
+
  	{
  	
  	$total_qstn='';
@@ -41,5 +45,6 @@ function getTotalQstass($ass_id,$mysqli)
 	$stmt->fetch();
 	$total_qstn=$totalqstn;
 	return  $total_qstn;  
+ 
  
  }

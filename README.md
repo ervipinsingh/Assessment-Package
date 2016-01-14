@@ -38,17 +38,21 @@ Server Requirements
 PHP version 5.2.4 or newer.
 for database connection 
 
+
 function getConnectMe()
 
 	 { 
 	 
 	   $config = new msConfig();
-	   $mysqli=mysqli_connect($config->hostname,$config->username,$config->password,$config->database) or die(mysqli_error());
+	   $mysqli=mysqli_connect($config->hostname,$config->username,$config->password,$config->database)
+	   or die(mysqli_error());
 	   return $mysqli;		    
 	 
 	  }
 	  
  Edit configuration.php file . add Database details.
+ 
+ 
  class msConfig
   { 	 
 	

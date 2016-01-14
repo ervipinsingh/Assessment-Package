@@ -1,4 +1,4 @@
-Assessment-package By Srv Learning (Sravan Technologies)
+Online Test Software (Sravan Technologies)
 ==================
 This Reprository is useful for Companies, Colleges, Doctors, Non Profit Organization.
 This is a  assessment Package Which is Useful for conducting online test for any domain,The test package is usful for Organizations to conduct recruitment Test. There are 4 Types of question an User can add 

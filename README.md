@@ -38,7 +38,7 @@ Server Requirements
 PHP version 5.2.4 or newer.
 for database connection 
 
-
+```php
 function getConnectMe()
 
 	 { 
@@ -49,7 +49,7 @@ function getConnectMe()
 	   return $mysqli;		    
 	 
 	  }
-	  
+```	  
  Edit configuration.php file . add Database details.
  
  ```php

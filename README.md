@@ -52,7 +52,7 @@ function getConnectMe()
 	  
  Edit configuration.php file . add Database details.
  
- 
+ ```php
  class msConfig
   { 	 
 	
@@ -61,14 +61,12 @@ function getConnectMe()
 	 var $password='passwordd'; 
 	 var $persist=false;
 	 var $database='Database name';  
-	
- /*	
-
 	 var $hostnamew='localhost'; 
 	 var $username='msmainac_weblms'; 
 	 var $password='web@lmsadmin'; 
 	 var $persist=false;
 	 var $database='msmainac_lmsweb';  	       
-	*/
+	
   }
 
+```
